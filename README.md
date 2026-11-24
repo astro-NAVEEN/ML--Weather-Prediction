@@ -14,6 +14,8 @@ To write a program to predict daily temperature , PM2.5 pollution level and Ener
 
 ## Program:
 
+~~~py
+
 import numpy as np
 
 from sklearn.ensemble import RandomForestRegressor
@@ -93,6 +95,8 @@ print("Temperature (°C):", round(prediction[0][0], 2))
 print("PM2.5 Level:", round(prediction[0][1], 2))
 
 print("Energy (kWh):", round(prediction[0][2], 2))
+
+~~~
 ## Output:
 
 <img width="803" height="677" alt="image" src="https://github.com/user-attachments/assets/d2f34d68-f924-4290-825b-5269ac5306da" />
